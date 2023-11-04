@@ -1,19 +1,64 @@
 #cabecalho{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-content: center;
-width: 1920px;
-height: 86px;
-flex-shrink: 0;
-background: #020064;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 86px;
+    flex-shrink: 0;
+    background: #020064;
 }
 
 img{
-width: 75px;
-height: 71.25px;
-flex-shrink: 0;
-margin-left: 10px;
-margin-top: 7px;
+    width: 75px;
+    height: 71.25px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    margin-top: 7px;
+    }
+
+#acesso_paginas{
+    display: flex;
+}
+
+
+.link_paginas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#pagina{
+    width: 100%;
+  
+}
+
+#opcoes{
+    background-color: #acabe4;
+    display: flex;}
+  
+
+.bloco{
+   width: 25%;
+   padding: 100px;
+}
+
+#bloco_selecionado{
+    color: #020064;
+    background-color: #acabe4;
+}
+
+#rodape{
+    width: 100%;
+    height: 86px;
+    flex-shrink: 0;
+    background: #0d0dac;
 }
