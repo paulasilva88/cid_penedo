@@ -1,0 +1,19 @@
+#cabecalho{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: center;
+width: 1920px;
+height: 86px;
+flex-shrink: 0;
+background: #020064;
+
+}
+
+img{
+width: 75px;
+height: 71.25px;
+flex-shrink: 0;
+margin-left: 10px;
+margin-top: 7px;
+}
