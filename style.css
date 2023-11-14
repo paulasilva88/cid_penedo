@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #cabecalho{
     display: flex;
     flex-direction: row;
@@ -34,26 +39,55 @@ img{
 a{
     color: aliceblue;
     text-decoration: none;
+    font-size: 25px;
 }
 
 #pagina{
-    width: 100%;
-  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+
+}
+p{
+    font-size: 25px;
+    text-align: justify;
 }
 
 #opcoes{
-    background-color: #acabe4;
-    display: flex;}
+    display: flex;
+    flex-wrap: wrap;}
   
 
 .bloco{
-   width: 25%;
-   padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 100px;
+    border-radius: 10px;
+    margin: 5%;
+    background-color: #acabe4;
+
+
 }
 
 #bloco_selecionado{
     color: #020064;
     background-color: #acabe4;
+    font-size: 20px;
+}
+
+.ficha_membro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 20;
+}
+
+.foto_membro{
+    margin: 10px;
+    border-radius: 100%;
 }
 
 #rodape{
